@@ -1,0 +1,133 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .header{
+        align-items: center;
+       
+    }
+    .mobile-menu{
+        justify-self: right;
+        font-size: 40px;
+        align-items: center;
+    
+    }
+    .mobile-menu:hover .header-menu{
+        display: block;
+    }
+
+    .header-menu{
+         display: none;
+      
+    }
+    .hero-content{
+        display: inline-block;
+        grid-template-rows: 1fr 1fr ;
+        padding: 0;
+    }
+    .btn{
+        display: grid;
+        grid-template-columns: repeat(2, 0.2fr);
+        justify-content: center;
+    }
+    .btn a{
+        padding: 10px;
+    }
+
+
+    .check-out{
+        display: none;
+    }
+
+    .images {
+        text-align: center;
+
+    }
+    .images img{
+        width: 200px;
+        height: auto;
+        padding-top: 50PX;
+    }
+
+
+    .main-about{
+        display: inline-block;
+  }
+  .cv-btn {
+    padding-top: 29px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.menu2{
+    display: none;
+}
+.p-w-gellary-content {
+    display: inline-block;
+   
+}
+.s-p-g {
+    display: inline-block;
+}
+.pricing-content {
+    display: inline-block;
+    
+   
+}
+  }
